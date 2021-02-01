@@ -26,7 +26,7 @@ func main() {
 	fmt.Println("Found", albumName, "set from", modelName, "!")
 	fmt.Println("Found", len(imagesFound), "images in set. Downloading...")
 
-	albumDir := downloadsDir + "/" + modelName + " - " + albumName
+	albumDir := downloadsDir + "/" + modelName + "/" + albumName
 
 	checkAndCreateDir(downloadsDir)
 	checkAndCreateDir(albumDir)
